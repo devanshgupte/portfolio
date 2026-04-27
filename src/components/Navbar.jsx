@@ -38,9 +38,12 @@ export default function Navbar() {
   return (
     <>
       <nav>
-        <Link to="/" className="logo" onClick={(e) => handleNavClick(e, 'root')} style={{ textDecoration: 'none', color: 'white' }}>
-          Devansh<span>.</span>
-        </Link>
+       <Link to="/" className="logo-container" onClick={(e) => handleNavClick(e, 'root')}>
+  <div className="logo-main">
+    DEVANSH<span className="accent-dot">.</span>
+  </div>
+  <div className="logo-sub">PORTFOLIO</div>
+</Link>
         
         <ul className="nav-links">
           <li><a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About</a></li>

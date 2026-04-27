@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 // Import images so Vite processes the paths correctly
-import ssvnerpImg from '../assets/ssvnerp.png';
-import ssvnImg from '../assets/ssvn.png';
-import vsnImg from '../assets/vsn.png';
-import secondhomeImg from '../assets/secondhome.png';
+import ssvnerpImg from '../assets/ssvnerp.webp';
+import ssvnImg from '../assets/ssvn.webp';
+import vsnImg from '../assets/vsn.webp';
+import secondhomeImg from '../assets/secondhome.webp';
 
 const projectsData = {
   1: {

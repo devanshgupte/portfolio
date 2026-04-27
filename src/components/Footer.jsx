@@ -29,9 +29,12 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <Link to="/" onClick={scrollToTop} className="logo" style={{ textDecoration: 'none', color: 'white' }}>
-              Devansh<span>.</span>
-            </Link>
+            <Link to="/" className="logo-container" onClick={(e) => handleNavClick(e, 'root')}>
+  <div className="logo-main">
+    DEVANSH<span className="accent-dot">.</span>
+  </div>
+  <div className="logo-sub">PORTFOLIO</div>
+</Link>
             <p className="footer-tagline">
               Freelance Full-Stack Developer. Crafting high-performance digital solutions from Madhya Pradesh, India.
             </p>
